@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles/mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+   <nav>
+    <h1>Task Manager</h1>
+   </nav> 
+    
+
+    <main class="container">
+
+        <section class="list-container">List
+            <button id="btnToggleForm">Hide form</button>
+        </section>
+        
+        <section class="form-container">
+
+        <div class="my-form">
+            <i id="iImportant" class="main-icon fa-solid fa-thumbs-down"></i>
+        </div>
+        
+        <div class="my-form">
+            <label>Title</label>
+            <input type="text">
+        </div>
+        
+        <div class="my-form">
+            <label>Description</label>
+            <textarea rows="3"></textarea>
+        </div>
+        
+        <div class="my-form">
+            <label>Due Date</label>
+            <input type="datetime-local">
+        </div>
+        
+        <div class="my-form">
+            <label>Category</label>
+           <select>
+            <option>Family</option>
+            <option>Person</option>
+            <option>Work</option>
+           </select>
+        </div>
+        
+        <div class="my-form">
+            <label>Contact</label>
+            <input type="text">
+        </div>
+        
+        <div class="my-form">
+            <label>Status</label>
+            <select>
+                <option>Ready</option>
+                <option>In Progress</option>
+                <option>Completed</option>
+                <option>Cancelled</option>
+            </select>
+        </div>
+        
+        </section>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
+
+<!-- Task
+
+    important
+
+    title
+    description
+    duedate
+    category (work, family, personal)
+    contact
+    status (ready, in progress, completed, cancelled)
+ 
+
+-->

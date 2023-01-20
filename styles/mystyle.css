@@ -1,0 +1,36 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    background-color: salmon;
+    border: 1px solid black;
+    background-size: cover;
+    text-align: center;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+}
+.list-container{
+    flex: 5;
+}
+.form-container{
+    flex: 3;
+}
+.my-form{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.my-form label{
+    display: block;
+    width: 90px;
+}
+.main-icon{
+    font-size: 40px;
+    color: rgb(78, 76, 76);
+    cursor: pointer;
+}
+
+#iImportant.important{
+    color: rgb(34, 190, 6);
+}
