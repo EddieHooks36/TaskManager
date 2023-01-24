@@ -35,3 +35,9 @@ h1{
 #iImportant.important{
     color: rgb(34, 190, 6);
 }
+.task{
+    display: flex;
+}
+.task label{
+    display: block;
+}
