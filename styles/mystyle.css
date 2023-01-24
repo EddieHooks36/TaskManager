@@ -26,9 +26,10 @@ h1{
     width: 90px;
 }
 .main-icon{
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(78, 76, 76);
     cursor: pointer;
+    border-radius: 10px;
 }
 
 #iImportant.important{

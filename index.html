@@ -28,22 +28,22 @@
         
         <div class="my-form">
             <label>Title</label>
-            <input type="text">
+            <input id="txtTitle" type="text">
         </div>
         
         <div class="my-form">
             <label>Description</label>
-            <textarea rows="3"></textarea>
+            <textarea id="txtDescription" rows="3"></textarea>
         </div>
         
         <div class="my-form">
             <label>Due Date</label>
-            <input type="datetime-local">
+            <input id="selDueDate" type="datetime-local">
         </div>
         
         <div class="my-form">
             <label>Category</label>
-           <select>
+           <select id="selCategory">
             <option>Family</option>
             <option>Person</option>
             <option>Work</option>
@@ -52,12 +52,12 @@
         
         <div class="my-form">
             <label>Contact</label>
-            <input type="text">
+            <input id="txtContact" type="text">
         </div>
         
         <div class="my-form">
             <label>Status</label>
-            <select>
+            <select id="selStatus">
                 <option>Ready</option>
                 <option>In Progress</option>
                 <option>Completed</option>
@@ -65,11 +65,16 @@
             </select>
         </div>
         
+        <div class="my-form">
+            <button id="btnSave" class="btn-save">Save</button>
+        </div>
+
         </section>
     </main>
 
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./scripts/task.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
 </html>
