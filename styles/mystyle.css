@@ -1,14 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
 body{
-    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);;
+    background-size: 400% 400%;
+    animation: animate 7.5s ease-in-out infinite;
+    
 }
 h1{
-    background-color: salmon;
-    border: 1px solid black;
-    background-size: cover;
     text-align: center;
-    text-decoration: underline;
+    color: #fff;
+    background: rgba(255,255,255,.2);
+    font-size: 50px;
+    border-radius: 10px;
+    margin-right: 20px;
 }
+@keyframes animate{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
 .container{
     display: flex;
 }
@@ -20,10 +38,13 @@ h1{
     flex: 3;
     padding: 20px 30px;
     margin-left: 10px;
+    margin-right: 20px;
 }
 .my-form{
+    
     margin-bottom: 10px;
-    padding: 5px;
+    
+    
 }
 .my-form label{
     display: block;

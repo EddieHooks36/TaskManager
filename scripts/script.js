@@ -53,6 +53,9 @@ function saveTask(){
          }
     }); 
 }
+function clearForm(){
+
+}
 function displayTask(task){
      let syntax = `<div class="task">
         <div class="col1">
