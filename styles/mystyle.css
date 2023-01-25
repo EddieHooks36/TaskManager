@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
 body{
     background-color: lightblue;
 }
@@ -15,7 +16,10 @@ h1{
     flex: 5;
 }
 .form-container{
+    background-color: orangered;
     flex: 3;
+    padding: 20px 30px;
+    margin-left: 10px;
 }
 .my-form{
     margin-bottom: 10px;
@@ -37,7 +41,46 @@ h1{
 }
 .task{
     display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .task label{
     display: block;
+    margin-bottom: 5px;
+}
+.task .col1{
+    flex: 4;
+}
+.task .col2{
+    flex: 1;
+}
+.task .col3{
+    flex: 1;
+}
+#btnSave{
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btnSave:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btnSave:active {
+	position:relative;
+	top:1px;
 }
