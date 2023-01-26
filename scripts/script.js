@@ -54,8 +54,14 @@ function saveTask(){
     }); 
 }
 function clearForm(){
-
+    $("#txtTitle").val("");
+    $("#txtDescription").val("");
+    $("#selDueDate").val("");
+    $("#selCategory").val("");
+    $("#txtContact").val("");
+    $("#selStatus").val("");
 }
+
 function displayTask(task){
      let syntax = `<div class="task">
         <div class="col1">

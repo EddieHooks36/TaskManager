@@ -29,30 +29,31 @@ h1{
   }
 .container{
     display: flex;
+    padding: 30px;
 }
 .list-container{
     flex: 5;
+    padding: 30px;
 }
 .form-container{
-    background-color: orangered;
+    color: white;
+    background-color: #48403f;
     flex: 3;
     padding: 20px 30px;
     margin-left: 10px;
     margin-right: 20px;
 }
-.my-form{
-    
-    margin-bottom: 10px;
-    
-    
+.my-form{   
+    margin-bottom: 20px;
 }
+
 .my-form label{
     display: block;
     width: 90px;
 }
 .main-icon{
     font-size: 30px;
-    color: rgb(78, 76, 76);
+    color: rgb(182, 75, 160);
     cursor: pointer;
     border-radius: 10px;
 }
@@ -61,11 +62,15 @@ h1{
     color: rgb(34, 190, 6);
 }
 .task{
+    background-color: #48403f;
+    text-shadow: #48403f;
+    color: white;
     display: flex;
     border: 1px solid black;
     border-radius: 10px;
-    margin-top: 5px;
-    padding: 10px;
+    margin-top: 30px;
+    padding: 5px;
+    text-shadow:0px 5px 0px #1c1f20;
     justify-content: center;
     align-items: center;
 }
@@ -84,8 +89,8 @@ h1{
 }
 #btnSave{
     box-shadow: 0px 10px 14px -7px #276873;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
+	background:linear-gradient(to bottom, #9b4a80 5%, #8f2b5d 100%);
+	background-color:#b75d93;
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
@@ -102,6 +107,29 @@ h1{
 	background-color:#408c99;
 }
 .btnSave:active {
+	position:relative;
+	top:1px;
+}
+#btnToggleForm{
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #9b4a80 5%, #8f2b5d 100%);
+	background-color:#b75d93;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.hideForm:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.hideForm:active {
 	position:relative;
 	top:1px;
 }
